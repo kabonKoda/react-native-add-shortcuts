@@ -88,8 +88,6 @@ class AddShortcuts extends PureComponent {
           color: "",
           size: 0,
         };
-      } else {
-        props.icon = {};
       }
     } else {
       props.icon = {};
