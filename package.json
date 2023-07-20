@@ -16,7 +16,9 @@
   ],
   "author": "Pranav Raj Singh Chauhan",
   "license": "Apache License",
-  "dependencies": {},
+  "dependencies": {
+    "react-native-image-helper": "kabonkoda/react-native-image-helper"
+  },
   "devDependencies": {
     "prettier-pack": "0.0.8"
   }
