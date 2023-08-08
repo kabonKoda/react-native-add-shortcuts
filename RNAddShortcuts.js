@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
-import { ViewPropTypes, NativeModules, Platform } from "react-native";
-import PropTypes from "prop-types";
+import { NativeModules, Platform } from "react-native";
 
 import RNImageHelper from "react-native-image-helper";
 import resolveAssetSource from "react-native/Libraries/Image/resolveAssetSource";
@@ -10,9 +9,7 @@ const { RNAddShortcuts } = NativeModules;
 let _initialShortcut = RNAddShortcuts && RNAddShortcuts.initialShortcut;
 
 class AddShortcuts extends PureComponent {
-  static propTypes = {
-    ...ViewPropTypes,
-  };
+  static propTypes = {};
 
   static defaultProps = {};
 
